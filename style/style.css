@@ -59,15 +59,6 @@ h1.titel-groot-home{
     margin-bottom: 40px;
     padding-right: 70px;
 }
-p#timer{
-    text-align: center;
-    font-size: 20px;
-    color: #72432B;
-    font-family: Cormorant sans-serif;
-    letter-spacing: 3px;
-    width: 100%;
-    padding-top: 60px;
-}
 .titel-groot{
     color: #72432B;
     font-size: 22px;
@@ -296,55 +287,8 @@ p#paragraaf-volledig-contact{
     margin-top: 25px;
     margin-bottom: 25px;
 }
-#section-werkveldverkenning{
-    width: 20%;
-    align-items: center;
-    border: 1px solid #72432B;
-    padding: 25px;
-    border-radius: 50%;
-    text-align: center;
-    margin: 30px;
-}
-#section-analyse-arbeidsmarkt{
-    width: 20%;
-    align-items: center;
-    border: 1px solid #72432B;
-    padding: 25px;
-    border-radius: 50%;
-    text-align: center;
-    margin: 30px;
-}
-#section-eindreflectie{
-    width: 20%;
-    align-items: center;
-    border: 1px solid #72432B;
-    padding: 25px;
-    border-radius: 50%;
-    text-align: center;
-    margin: 30px;
-}
-#beer{
-    width: 400px;
-    height: 250px;
-    justify-content: left;
-    margin-left: 250px;
-    margin-top: 50px;
-}
-#b{
-    width: 300px;
-    height: 250px;
-    justify-content: right;
-    margin-left: 100px;
-    margin-top: 50px;
-}
-#wouters{
-    width: 800px;
-    height: 250px;
-    justify-content: center;
-    margin-top: 30px;
-    margin-left: 20%;
-}
-@media only screen and (max-width: 1024px) {
+
+@media only screen and (max-width: 1200px) {
     .nav{
         display: block;
         margin-left: 50px;
@@ -367,8 +311,6 @@ p#paragraaf-volledig-contact{
         padding-top: 40px;
         text-underline: none;
         color: #72432B;
-
-
     }
     .nav-item{
         list-style-type: none;
@@ -376,18 +318,14 @@ p#paragraaf-volledig-contact{
         margin-right: 30px;
         height: 60px;
         width: 60px;
-
         text-align: center;
         color: #72432B;
         padding-right: 20px;
     }
-
     .nav-link{
         color: #72432B;
         display: inline-block;
-
         text-decoration: none;
-
     }
     h1.titel-groot-home{
         color: #72432B;
@@ -396,17 +334,6 @@ p#paragraaf-volledig-contact{
         font-family: Cormorant, sans-serif;
         margin-top: 55px;
         margin-bottom: 30px;
-
-
-    }
-    p#timer{
-        text-align: center;
-        font-size: 17px;
-        color: #72432B;
-        font-family: Cormorant sans-serif;
-        letter-spacing: 3px;
-        width: 100%;
-        padding-top: 50px;
     }
     .titel-groot{
         color: #72432B;
@@ -425,7 +352,6 @@ p#paragraaf-volledig-contact{
         font-size: x-large;
         font-family: Cormorant, sans-serif;
         margin-top: 30px;
-
     }
     h1{
         color: #AB8976;
@@ -440,7 +366,6 @@ p#paragraaf-volledig-contact{
         line-height: 16px;
         font-family: Klee One sans-serif;
         margin-bottom: 20px;
-
     }
     #section-werk{
         display: flex;
@@ -634,57 +559,8 @@ p#paragraaf-volledig-contact{
         margin-top: 25px;
         margin-bottom: 25px;
     }
-    #section-werkveldverkenning{
-        width: 20%;
-        align-items: center;
-        border: 1px solid #72432B;
-        padding: 25px;
-        border-radius: 50%;
-        text-align: center;
-        margin: 30px;
-    }
-    #section-analyse-arbeidsmarkt{
-        width: 20%;
-        align-items: center;
-        border: 1px solid #72432B;
-        padding: 25px;
-        border-radius: 50%;
-        text-align: center;
-        margin: 30px;
-    }
-    #section-eindreflectie{
-        width: 20%;
-        align-items: center;
-        border: 1px solid #72432B;
-        padding: 25px;
-        border-radius: 50%;
-        text-align: center;
-        margin: 30px;
-    }
-    #beer{
-        width: 400px;
-        height: 250px;
-        justify-content: left;
-        margin-left: 250px;
-        margin-top: 50px;
-    }
-    #b{
-        width: 300px;
-        height: 250px;
-        justify-content: right;
-        margin-left: 100px;
-        margin-top: 50px;
-    }
-    #wouters{
-        width: 800px;
-        height: 250px;
-        justify-content: center;
-        margin-top: 30px;
-        margin-left: 20%;
-    }
 }
-@media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 992px) {
     .nav{
         display: block;
         margin-left: 10px;
@@ -781,7 +657,6 @@ p#paragraaf-volledig-contact{
         line-height: 16px;
         font-family: Klee One sans-serif;
         margin-bottom: 20px;
-
     }
     #section-werk{
         display: flex;
@@ -973,47 +848,282 @@ p#paragraaf-volledig-contact{
         margin-top: 25px;
         margin-bottom: 25px;
     }
-    #section-werkveldverkenning{
-        width: 20%;
-        align-items: center;
-        padding: 15px;
-        text-align: center;
-        margin: 10px;
+    p#paragraaf-mobile{
+        color: #72432B;
         font-size: 14px;
+        font-style: normal;
+        line-height: 16px;
+        font-family: Klee One sans-serif;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        width: 300px;
     }
-    #section-analyse-arbeidsmarkt{
-        width: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav{
+        display: block;
+        margin-left: 10px;
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+    img#logo{
+        width: 60px;
+        height: 60px;
+        float: left;
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    #nav-button{
         align-items: center;
-        font-size: 14px;
-        padding: 15px;
         text-align: center;
+        justify-content: right;
+        float: right;
+        padding-top: 40px;
+        text-underline: none;
+        color: #72432B;
+    }
+    .nav-item{
+        list-style-type: none;
+        display: inline-block;
+        padding-right: 10px;
+        height: 30px;
+        width: 10px;
+        text-align: center;
+        color: #72432B;
+        font-size: 9px;
+        margin-bottom: 25px;
+    }
+
+    .nav-link{
+        color: #72432B;
+        display: inline-block;
+        text-decoration: none;
+    }
+    h1.titel-groot-home{
+        color: #72432B;
+        font-size: 15px;
+        letter-spacing: 7px;
+        font-family: Cormorant, sans-serif;
+        margin-top: 65px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+    }
+    .titel-groot{
+        color: #72432B;
+        font-size: 15px;
+        letter-spacing: 4px;
+        font-family: Cormorant, sans-serif;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    #text-intro{
         margin: 20px;
     }
-    #section-eindreflectie{
-        width: 20%;
+    .titel{
+        color: #72432B;
+        font-size: x-large;
+        font-family: Cormorant, sans-serif;
+        margin-top: 30px;
+    }
+    h1{
+        color: #AB8976;
+        font-size: x-large;
+        margin-left: 20px;
+    }
+    p{
+        color: #72432B;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 140;
+        line-height: 16px;
+        font-family: Klee One sans-serif;
+        margin-bottom: 20px;
+    }
+    #section-werk{
+        display: flex;
+    }
+    .section-intro{
+        display: flex;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .text-intro{
+        justify-content: left;
         align-items: center;
-        padding: 15px;
-        text-align: center;
-        margin: 10px;
-        font-size: 4px;
+        color: #AB8976;
+        margin-top: 20px;
+        width: 50%;
     }
-    #beer{
-        width: 250px;
-        height: 100px;
-        margin: 5px;
+    #section-image{
+        width: 50%;
     }
-    #b{
-        width: 130px;
-        height: 100px;
-        margin-left: 75px;
+    #section-image img{
+        justify-content: right;
+        height: 150px;
+        width: 150px;
         margin-top: 10px;
     }
-    #wouters{
+    h3.tussentitel{
+        color: #72432B;
+        font-family: Cormorant sans-serif;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    #studioslimm{
+        display: flex;
+        margin-right: 20px;
+    }
+    .text-right-studioslimm{
+        justify-content: right;
+        margin-left: 20px;
+    }
+    .text-right-studioslimm img{
+        justify-content: right;
+        margin-left: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    .image-left-studioslimm{
+        justify-content: left;
+        padding-right: 20px;
+        padding-top: 20px;
+        margin-left: 140px;
+    }
+    .image-left-studioslimm img{
+        width: 400px;
+        height: 700px;
+    }
+    h4.kleintitel{
+        font-family: Cormorant sans-serif;
+        font-size: 16px;
+        color: #72432B;
+        margin-bottom: 5px;
+    }
+    .opsomming{
+        color: #72432B;
+        list-style-type: circle;
+        font-size: 14px;
+    }
+    .image-row{
+        justify-content: center;
+        display: block;
+        max-width: 100%;
+
+    }
+    #orchestra{
+        margin-left: 20px;
+        margin-top: 20px;
+        justify-content: right;
+    }
+    #orchestra h4{
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+    #orchestra p{
+        margin-left: -20px;
+    }
+    #certago{
+        margin-left: 130px;
+        margin-top: 20px;
+        justify-content: left;
+    }
+    #certago h4{
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+    #certago h4, #certago p{
+        margin-left: -20px;
+    }
+    .image{
+        height: 250px;
         width: 250px;
-        height: 100px;
+        margin: 10px;
+    }
+    #intro-overmij{
+        display: flex;
+    }
+    .text-overmij{
+        float: left;
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+    .image-overmij{
+        float: right;
+    }
+    #image-illustratie img{
+        width: 300px;
+        height: 280px;
+        margin-right: 20px;
         margin-top: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
+    }
+    #studioslimm-posts{
+        margin-top: 20px;
+        justify-content: center;
+        height: 20px;
+        width: 20px;
+    }
+    .section1 .text-intro h1{
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    p#paragraaf-volledig{
+        top: 1831px;
+        left: 100px;
+        font-family: Klee One sans-serif;
+        font-size: 10px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        color: #72432B;
+        margin-top: 25px;
+        margin-right:20px;
+        margin-left: 20px;
+    }
+    p#paragraaf-volledig-contact{
+        top: 1531px;
+        left: 100px;
+        font-family: Klee One sans-serif;
+        font-size: 17px;
+        text-align: center;
+        font-weight: bold;
+        color: #72432B;
+        border-top: 1px solid #72432B;
+        padding-top: 30px;
+    }
+    .tussentitel-button{
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .button{
+        justify-content: center;
+        text-align: center;
+        color: #72432B;
+        font-family: Klee One, sans-serif;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .button-text{
+        justify-content: center;
+        text-align: center;
+        color: #72432B;
+        font-size: 13px;
+        font-family: Klee One, sans-serif;
+        padding-top: 25px;
+        margin-bottom: 50px;
+        letter-spacing: 1px;
+    }
+    .text-right{
+        float: right;
+        margin: 20px;
+    }
+    #section-button{
+        justify-content: center;
+        display: flex;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
     p#paragraaf-mobile{
         color: #72432B;
